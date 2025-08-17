@@ -6,54 +6,81 @@
   <title>Registro de Consultas - Enfermería</title>
   <link rel="stylesheet" href="style.css">
 </head>
-<header>
-    <img src="11.png" alt="Logo Institución Educativa">
-  </header>
 <body>
-  <div class="container">
-    <h2>Registro de Consultas - Enfermería</h2>
-
-    <form id="consultaForm" class="card">
-      <label for="nombre">Nombre del estudiante</label>
-      <input type="text" id="nombre" required>
-
-      <label for="grado">Grado</label>
-      <input type="text" id="grado" required>
-
-      <label for="medicamento">Medicamento solicitado</label>
-      <input type="text" id="medicamento" required>
-
-      <div class="grid-2">
-        <div>
-          <label for="fecha">Fecha actual</label>
-          <input type="text" id="fecha" readonly>
-        </div>
-        <div>
-          <label for="hora">Hora actual</label>
-          <input type="text" id="hora" readonly>
-        </div>
-      </div>
-
-      <button type="submit" class="btn-primary">Registrar Consulta</button>
-    </form>
-
-    <p class="muted"><a href="res.html">Ver Consultas Registradas</a></p>
-  </div>
-
-  <!-- Modal Factura -->
-  <div id="facturaModal" class="modal">
-    <div class="modal-card">
-      <h3>Factura de Consulta</h3>
-      <p><b>Nombre:</b> <span id="facturaNombre"></span></p>
-      <p><b>Grado:</b> <span id="facturaGrado"></span></p>
-      <p><b>Medicamento:</b> <span id="facturaMedicamento"></span></p>
-      <p><b>Fecha:</b> <span id="facturaFecha"></span></p>
-      <p><b>Hora de Entrada:</b> <span id="facturaHora"></span></p>
-      <p><b>Hora de Salida:</b> <span id="facturaSalida"></span></p>
-      
-      <button id="btnRegistrarSalida" class="btn-primary">Registrar Salida</button>
+  <!-- Menú lateral -->
+  <nav class="sidebar" id="sidebar">
+    <div class="logo-menu">
+      <img src="logo.png" alt="Logo Institución" class="logo-small">
+      <h2>Menú</h2>
     </div>
-  </div>
+    <ul>
+      <li><a href="index.html">➕ Nueva Consulta</a></li>
+      <li><a href="res.html">📋 Ver Consultas</a></li>
+      <li><a href="#">📊 Reportes (futuro)</a></li>
+      <li><a href="#">⚙️ Configuración</a></li>
+    </ul>
+  </nav>
+
+  <!-- Botón hamburguesa -->
+  <button class="menu-btn" id="menuBtn">☰</button>
+
+  <!-- Encabezado institucional -->
+  <header class="header">
+    <img src="logo.png" alt="Logo Institución" class="logo">
+    <h1>Registro de Consultas - Enfermería</h1>
+  </header>
+
+  <!-- Contenedor principal -->
+  <main class="container">
+    <div class="card">
+      <h2>Formulario de Registro</h2>
+      <form id="formConsulta">
+        
+        <!-- Datos del estudiante -->
+        <fieldset>
+          <legend>Datos del Estudiante</legend>
+          <label>Nombre completo:</label>
+          <input type="text" id="nombre" required placeholder="Ejemplo: Juan Pérez">
+
+          <label>DNI:</label>
+          <input type="text" id="dni" placeholder="Ejemplo: 12345678">
+
+          <label>Sexo:</label>
+          <select id="sexo" required>
+            <option value="">Seleccione...</option>
+            <option value="Masculino">Masculino</option>
+            <option value="Femenino">Femenino</option>
+            <option value="Otro">Otro</option>
+          </select>
+        </fieldset>
+
+        <!-- Motivo de consulta -->
+        <fieldset>
+          <legend>Motivo de Consulta</legend>
+          <label>Síntomas:</label>
+          <textarea id="sintomas" rows="2" placeholder="Ejemplo: dolor de cabeza, mareo..."></textarea>
+        </fieldset>
+
+        <!-- Atención brindada -->
+        <fieldset>
+          <legend>Atención Brindada</legend>
+          <label>Medicamento:</label>
+          <select id="medicamento" required>
+            <option value="">Seleccione...</option>
+            <option value="Paracetamol">Paracetamol</option>
+            <option value="Ibuprofeno">Ibuprofeno</option>
+            <option value="Suero">Suero</option>
+            <option value="Otro">Otro</option>
+          </select>
+
+          <label>Cantidad:</label>
+          <input type="text" id="cantidad" placeholder="Ejemplo: 1 tableta, 5 ml">
+        </fieldset>
+
+        <button type="submit" class="btn">Registrar Consulta</button>
+      </form>
+    </div>
+  </main>
 
   <script src="main.js"></script>
 </body>

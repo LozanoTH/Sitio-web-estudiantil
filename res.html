@@ -2,113 +2,72 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
-  <title>Consultas realizadas</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Consultas Registradas</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h2>📋 Consultas Registradas</h2>
- <table id="tabla-consultas" border="1">
-  <thead>
-    <tr>
-      <th>Nombre</th>
-      <th>Grado</th>
-      <th>Medicamento</th>
-      <th>Fecha</th>
-      <th>Hora Entrada</th>
-      <th>Hora Salida</th>
-      <th>Ingresos</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Lozano martinez deiby andres</td>
-      <td>11 alp</td>
-      <td>paracetamol</td>
-      <td>16/8/2025</td>
-      <td>1:50:09 p. m.</td>
-      <td>1:51:22 p. m.</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Maria garcia marquez</td>
-      <td>9</td>
-      <td>aspirina</td>
-      <td>16/8/2025</td>
-      <td>1:51:35 p. m.</td>
-      <td>1:52:43 p. m.</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Lozano martinez deiby andres</td>
-      <td>11 alp</td>
-      <td>paracetamol</td>
-      <td>16/8/2025</td>
-      <td>2:01:18 p. m.</td>
-      <td>2:02:53 p. m.</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Lozano martinez deiby andres</td>
-      <td>11 alp</td>
-      <td>paracetamol</td>
-      <td>16/8/2025</td>
-      <td>2:07:08 p. m.</td>
-      <td>2:09:58 p. m.</td>
-      <td></td>
-    </tr>
-  </tbody>
-</table>
+  <!-- Menú lateral -->
+  <nav class="sidebar" id="sidebar">
+    <div class="logo-menu">
+      <img src="logo.png" alt="Logo Institución" class="logo-small">
+      <h2>Menú</h2>
+    </div>
+    <ul>
+      <li><a href="index.html">➕ Nueva Consulta</a></li>
+      <li><a href="res.html">📋 Ver Consultas</a></li>
+    </ul>
+  </nav>
 
-<script>
-  function agruparConsultas() {
-    const filas = document.querySelectorAll("#tabla-consultas tbody tr");
-    const agrupados = {};
-    
-    filas.forEach(fila => {
-      const nombre = fila.cells[0].textContent.trim().toLowerCase();
-      const grado = fila.cells[1].textContent.trim();
-      const medicamento = fila.cells[2].textContent.trim();
-      const fecha = fila.cells[3].textContent.trim();
-      const horaEntrada = fila.cells[4].textContent.trim();
-      const horaSalida = fila.cells[5].textContent.trim();
-      
-      const clave = nombre + "_" + fecha;
-      
-      if (!agrupados[clave]) {
-        agrupados[clave] = {
-          nombre: fila.cells[0].textContent.trim(),
-          grado,
-          medicamento,
-          fecha,
-          primeraEntrada: horaEntrada,
-          ultimaSalida: horaSalida,
-          ingresos: 1
-        };
-      } else {
-        agrupados[clave].ultimaSalida = horaSalida; // actualizamos salida
-        agrupados[clave].ingresos++;
-      }
-    });
-    
-    // limpiar tabla original
-    const tbody = document.querySelector("#tabla-consultas tbody");
-    tbody.innerHTML = "";
-    
-    // rellenar tabla resumida
-    Object.values(agrupados).forEach(item => {
-      const fila = document.createElement("tr");
-      fila.innerHTML = `
-        <td>${item.nombre}</td>
-        <td>${item.grado}</td>
-        <td>${item.medicamento}</td>
-        <td>${item.fecha}</td>
-        <td>${item.primeraEntrada}</td>
-        <td>${item.ultimaSalida}</td>
-        <td>${item.ingresos} ${item.ingresos === 1 ? "vez" : "veces"}</td>
+  <button class="menu-btn" id="menuBtn">☰</button>
+
+  <!-- Encabezado -->
+  <header class="header">
+    <img src="logo.png" alt="Logo Institución" class="logo">
+    <h1>Consultas Registradas</h1>
+  </header>
+
+  <!-- Contenedor -->
+  <main class="container">
+    <div class="card">
+      <h2>Listado de Pacientes Atendidos</h2>
+      <table id="tablaConsultas">
+        <thead>
+          <tr>
+            <th>Nombre</th>
+            <th>DNI</th>
+            <th>Sexo</th>
+            <th>Síntomas</th>
+            <th>Medicamento</th>
+            <th>Cantidad</th>
+            <th>Fecha</th>
+            <th>Hora</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
+  </main>
+
+  <script>
+    const consultas = JSON.parse(localStorage.getItem("consultas")) || [];
+    const tbody = document.querySelector("#tablaConsultas tbody");
+
+    consultas.forEach(c => {
+      const row = document.createElement("tr");
+      row.innerHTML = `
+        <td>${c.nombre}</td>
+        <td>${c.dni}</td>
+        <td>${c.sexo}</td>
+        <td>${c.sintomas}</td>
+        <td>${c.medicamento}</td>
+        <td>${c.cantidad}</td>
+        <td>${c.fecha}</td>
+        <td>${c.hora}</td>
       `;
-      tbody.appendChild(fila);
+      tbody.appendChild(row);
     });
-  }
-  
-  agruparConsultas();
-</script>
+  </script>
+  <script src="main.js"></script>
+</body>
+</html>
