@@ -1,0 +1,106 @@
+/* ---------------------------
+   Menú inferior con imágenes
+   --------------------------- */
+.bottom-nav {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 68px;
+  background: #ffffff;
+  border-top: 1px solid #e6e6e6;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 6px 8px;
+  z-index: 1000;
+  box-shadow: 0 -6px 18px rgba(6, 24, 50, 0.06);
+}
+
+/* cada item (link) */
+.bottom-nav .nav-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+  color: #444;
+  font-size: 11px;
+  width: 64px;
+  gap: 4px;
+}
+
+/* imagenes pequeñas del menú */
+.bottom-nav .nav-img {
+  width: 26px;
+  height: 26px;
+  object-fit: contain;
+  display: block;
+  filter: grayscale(0.1);
+  opacity: 0.95;
+  transition: transform .12s ease, filter .12s ease, opacity .12s ease;
+}
+
+/* etiqueta bajo la imagen */
+.bottom-nav .nav-label { font-size: 11px; line-height: 1; }
+
+/* efecto cuando pasa el mouse / touch */
+.bottom-nav .nav-item:hover .nav-img,
+.bottom-nav .nav-item:focus .nav-img {
+  transform: translateY(-4px);
+  filter: none;
+  opacity: 1;
+}
+
+/* FAB centrado (botón redondo) */
+.bottom-nav .fab {
+  width: 64px;
+  height: 64px;
+  border-radius: 999px;
+  background: #2b7cff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  transform: translateY(-28%);
+  box-shadow: 0 10px 30px rgba(43,124,255,0.18);
+  z-index: 1010;
+  cursor: pointer;
+  padding: 6px;
+}
+
+/* imagen dentro del FAB si usas una */
+.bottom-nav .fab-img {
+  width: 32px;
+  height: 32px;
+  object-fit: contain;
+  filter: brightness(10) invert(1);
+}
+
+/* versión escritorio: menu lateral */
+@media (min-width: 992px) {
+  .bottom-nav {
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: auto;
+    width: 200px;
+    height: 100vh;
+    flex-direction: column;
+    padding-top: 24px;
+    border-top: none;
+    border-right: 1px solid #e6e6e6;
+    transform: none;
+  }
+
+  .bottom-nav .nav-item {
+    width: 100%;
+    flex-direction: row;
+    gap: 12px;
+    padding: 10px 14px;
+    align-items: center;
+  }
+
+  .bottom-nav .nav-img { width: 28px; height: 28px; }
+  .bottom-nav .nav-label { display: inline-block; font-size: 15px; color: #1f2937; }
+  .bottom-nav .fab { transform: none; margin: 18px 0; }
+}
