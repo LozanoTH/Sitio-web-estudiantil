@@ -1,0 +1,125 @@
+/* General */
+body {
+  margin: 0;
+  font-family: "Segoe UI", Arial, sans-serif;
+  background: #121212;
+  color: #e0e0e0;
+}
+
+h1, h2, legend {
+  color: #3ea6ff;
+}
+
+/* Contenedor */
+.container {
+  padding: 20px;
+}
+
+/* Tarjeta */
+.card {
+  background: #1e1e1e;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.6);
+  max-width: 600px;
+  margin: auto;
+}
+
+/* Formularios */
+label {
+  display: block;
+  margin: 12px 0 5px;
+  font-weight: 600;
+}
+
+input, select, textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 12px;
+  border: none;
+  border-radius: 8px;
+  background: #2a2a2a;
+  color: #fff;
+  font-size: 15px;
+}
+
+textarea {
+  resize: vertical;
+  min-height: 70px;
+}
+
+/* Botón */
+button {
+  width: 100%;
+  padding: 12px;
+  background: #3ea6ff;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  cursor: pointer;
+  transition: transform 0.2s ease, background 0.3s ease;
+}
+
+button:hover {
+  background: #1e88e5;
+  transform: translateY(-2px);
+}
+
+/* Barra inferior */
+.bottom-nav {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #1e1e1e;
+  display: flex;
+  justify-content: space-around;
+  padding: 10px 0;
+  border-top: 1px solid #333;
+}
+
+.bottom-nav a {
+  color: #aaa;
+  text-decoration: none;
+  font-size: 14px;
+  transition: color 0.3s;
+}
+
+.bottom-nav a.active, .bottom-nav a:hover {
+  color: #3ea6ff;
+}
+
+/* consultas */
+
+.historial {
+  list-style: none;
+  padding: 0;
+}
+
+.historial-item {
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden; y si 
+}
+
+.historial-header {
+  background: #1976d2;
+  color: white;
+  padding: 10px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.detalles {
+  background: #42445A;
+  padding: 10px;
+}
+
+.detalles li {
+  margin-bottom: 10px;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 5px;
+}
