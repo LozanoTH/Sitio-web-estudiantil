@@ -8,7 +8,7 @@
     "sintomas": "Tos",
     "medicamento": "Paracetamol",
     "cantidad": "1",
-    "fecha": "11/9/2025, 3:05:30 p. m."
+    "fecha": "11/9/2025, 3:05:30 p.Â m."
   },
   {
     "nombre": "Moreno Canchimbo Linda Valentina",
@@ -19,6 +19,17 @@
     "sintomas": "Tos",
     "medicamento": "Ibuprofeno",
     "cantidad": "67",
-    "fecha": "11/9/2025, 3:20:02 p.�m."
+    "fecha": "11/9/2025, 3:20:02 p. m."
+  },
+  {
+    "nombre": "Ardila Mosquera Ariel David",
+    "dni": "1113371328",
+    "telefono": "3162587204",
+    "sexo": "M",
+    "grado": "61",
+    "sintomas": "Dolor de cabeza con fiebre ",
+    "medicamento": "Paracetamol",
+    "cantidad": "9",
+    "fecha": "11/9/2025, 3:56:53 p.m."
   }
 ]
