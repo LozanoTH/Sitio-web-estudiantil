@@ -53,5 +53,16 @@
     "medicamento": "Amoxicilina",
     "cantidad": "1",
     "fecha": "11/9/2025, 3:59:35 p.m."
+  },
+  {
+    "nombre": "Castillo Candelo Dafer Johan",
+    "dni": "1115459230",
+    "telefono": "3163467953",
+    "sexo": "M",
+    "grado": "61",
+    "sintomas": "Xx",
+    "medicamento": "Paracetamol",
+    "cantidad": "Xc",
+    "fecha": "11/9/2025, 6:10:09 p. m."
   }
 ]
