@@ -1,1 +1,13 @@
-Xos
+[
+  {
+    "nombre": "Valverde Garces Juan David",
+    "dni": "1111810173",
+    "telefono": "3147622921",
+    "sexo": "M",
+    "grado": "65",
+    "sintomas": "Tos",
+    "medicamento": "Paracetamol",
+    "cantidad": "1",
+    "fecha": "11/9/2025, 3:05:30 p. m."
+  }
+]
