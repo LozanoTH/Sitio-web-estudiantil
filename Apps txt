@@ -8,7 +8,7 @@
     "sintomas": "Tos",
     "medicamento": "Paracetamol",
     "cantidad": "1",
-    "fecha": "11/9/2025, 3:05:30 p.Ã‚Â m."
+    "fecha": "11/9/2025, 3:05:30 p.Ãƒâ€šÃ‚Â m."
   },
   {
     "nombre": "Moreno Canchimbo Linda Valentina",
@@ -19,7 +19,7 @@
     "sintomas": "Tos",
     "medicamento": "Ibuprofeno",
     "cantidad": "67",
-    "fecha": "11/9/2025, 3:20:02 p.Â m."
+    "fecha": "11/9/2025, 3:20:02 p.Ã‚Â m."
   },
   {
     "nombre": "Ardila Mosquera Ariel David",
@@ -38,7 +38,7 @@
     "telefono": "3163467953",
     "sexo": "M",
     "grado": "61",
-    "sintomas": "Hola cómo estás ",
+    "sintomas": "Hola cÃ³mo estÃ¡s ",
     "medicamento": "Ibuprofeno",
     "cantidad": "1",
     "fecha": "11/9/2025, 3:58:07 p.m."
@@ -63,6 +63,17 @@
     "sintomas": "Xx",
     "medicamento": "Paracetamol",
     "cantidad": "Xc",
-    "fecha": "11/9/2025, 6:10:09 p.�m."
+    "fecha": "11/9/2025, 6:10:09 p. m."
+  },
+  {
+    "nombre": "Ardila Mosquera Ariel David",
+    "dni": "1113371328",
+    "telefono": "3162587204",
+    "sexo": "M",
+    "grado": "61",
+    "sintomas": "Xos",
+    "medicamento": "Paracetamol",
+    "cantidad": "1",
+    "fecha": "11/9/2025, 6:13:25 p.�m."
   }
 ]
