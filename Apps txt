@@ -8,7 +8,7 @@
     "sintomas": "Tos",
     "medicamento": "Paracetamol",
     "cantidad": "1",
-    "fecha": "11/9/2025, 3:05:30 p.Â m."
+    "fecha": "11/9/2025, 3:05:30 p.Ã‚Â m."
   },
   {
     "nombre": "Moreno Canchimbo Linda Valentina",
@@ -19,7 +19,7 @@
     "sintomas": "Tos",
     "medicamento": "Ibuprofeno",
     "cantidad": "67",
-    "fecha": "11/9/2025, 3:20:02 p. m."
+    "fecha": "11/9/2025, 3:20:02 p.Â m."
   },
   {
     "nombre": "Ardila Mosquera Ariel David",
@@ -38,9 +38,20 @@
     "telefono": "3163467953",
     "sexo": "M",
     "grado": "61",
-    "sintomas": "Hola c�mo est�s ",
+    "sintomas": "Hola cómo estás ",
     "medicamento": "Ibuprofeno",
     "cantidad": "1",
     "fecha": "11/9/2025, 3:58:07 p.m."
+  },
+  {
+    "nombre": "Castillo Candelo Dafer Johan",
+    "dni": "1115459230",
+    "telefono": "3163467953",
+    "sexo": "M",
+    "grado": "61",
+    "sintomas": "Mama",
+    "medicamento": "Amoxicilina",
+    "cantidad": "1",
+    "fecha": "11/9/2025, 3:59:35 p.m."
   }
 ]
