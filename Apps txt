@@ -31,5 +31,16 @@
     "medicamento": "Paracetamol",
     "cantidad": "9",
     "fecha": "11/9/2025, 3:56:53 p.m."
+  },
+  {
+    "nombre": "Castillo Candelo Dafer Johan",
+    "dni": "1115459230",
+    "telefono": "3163467953",
+    "sexo": "M",
+    "grado": "61",
+    "sintomas": "Hola cómo estás ",
+    "medicamento": "Ibuprofeno",
+    "cantidad": "1",
+    "fecha": "11/9/2025, 3:58:07 p.m."
   }
 ]
