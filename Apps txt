@@ -8,6 +8,17 @@
     "sintomas": "Tos",
     "medicamento": "Paracetamol",
     "cantidad": "1",
-    "fecha": "11/9/2025, 3:05:30 p. m."
+    "fecha": "11/9/2025, 3:05:30 p.Â m."
+  },
+  {
+    "nombre": "Moreno Canchimbo Linda Valentina",
+    "dni": "115459006",
+    "telefono": "3175053923",
+    "sexo": "F",
+    "grado": "61",
+    "sintomas": "Tos",
+    "medicamento": "Ibuprofeno",
+    "cantidad": "67",
+    "fecha": "11/9/2025, 3:20:02 p. m."
   }
 ]
