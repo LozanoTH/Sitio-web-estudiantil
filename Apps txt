@@ -8,6 +8,17 @@
     "sintomas": "Ll",
     "medicamento": "Paracetamol",
     "cantidad": "1",
-    "fecha": "12/9/2025, 11:49:05 a. m."
+    "fecha": "12/9/2025, 11:49:05 a.Â m."
+  },
+  {
+    "nombre": "Badillo Valencia Allisson Sharith",
+    "dni": "1150945913",
+    "telefono": "3172168187",
+    "sexo": "M",
+    "grado": "62",
+    "sintomas": "Xos",
+    "medicamento": "Paracetamol",
+    "cantidad": "X",
+    "fecha": "12/9/2025, 11:52:06 a. m."
   }
 ]
