@@ -8,7 +8,7 @@
     "sintomas": "Tos",
     "medicamento": "Paracetamol",
     "cantidad": "1",
-    "fecha": "11/9/2025, 3:05:30 p.Ãƒâ€šÃ‚Â m."
+    "fecha": "11/9/2025, 3:05:30 p.ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â m."
   },
   {
     "nombre": "Moreno Canchimbo Linda Valentina",
@@ -19,7 +19,7 @@
     "sintomas": "Tos",
     "medicamento": "Ibuprofeno",
     "cantidad": "67",
-    "fecha": "11/9/2025, 3:20:02 p.Ã‚Â m."
+    "fecha": "11/9/2025, 3:20:02 p.Ãƒâ€šÃ‚Â m."
   },
   {
     "nombre": "Ardila Mosquera Ariel David",
@@ -38,7 +38,7 @@
     "telefono": "3163467953",
     "sexo": "M",
     "grado": "61",
-    "sintomas": "Hola cÃ³mo estÃ¡s ",
+    "sintomas": "Hola cÃƒÂ³mo estÃƒÂ¡s ",
     "medicamento": "Ibuprofeno",
     "cantidad": "1",
     "fecha": "11/9/2025, 3:58:07 p.m."
@@ -63,7 +63,7 @@
     "sintomas": "Xx",
     "medicamento": "Paracetamol",
     "cantidad": "Xc",
-    "fecha": "11/9/2025, 6:10:09 p. m."
+    "fecha": "11/9/2025, 6:10:09 p.Â m."
   },
   {
     "nombre": "Ardila Mosquera Ariel David",
@@ -74,6 +74,17 @@
     "sintomas": "Xos",
     "medicamento": "Paracetamol",
     "cantidad": "1",
-    "fecha": "11/9/2025, 6:13:25 p.�m."
+    "fecha": "11/9/2025, 6:13:25 p. m."
+  },
+  {
+    "nombre": "Valverde Garces Juan David",
+    "dni": "1111810173",
+    "telefono": "3147622921",
+    "sexo": "M",
+    "grado": "65",
+    "sintomas": "Tos y fiebre ",
+    "medicamento": "Paracetamol",
+    "cantidad": "1",
+    "fecha": "12/9/2025, 11:42:08 a.�m."
   }
 ]
