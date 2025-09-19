@@ -1,5 +1,7 @@
 # server/commands.txt
 echo Hola clase
+touch hola mundo 
+mkdir hola mama
 date
 uptime
 # add one command per line
