@@ -1,0 +1,5 @@
+# server/commands.txt
+echo Hola clase
+date
+uptime
+# add one command per line
