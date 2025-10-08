@@ -1,1 +1,7 @@
-
+{
+  "leaderboard": [
+    { "name": "Deiby", "score": 120 },
+    { "name": "Andrés", "score": 95 },
+    { "name": "Martínez", "score": 60 }
+  ]
+}
