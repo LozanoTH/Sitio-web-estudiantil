@@ -9,5 +9,16 @@
     "medicamento": "Ibuprofeno",
     "cantidad": "11",
     "fecha": "6/11/2025, 11:59:34"
+  },
+  {
+    "nombre": "Hurtado Guaitoto Angie Yisel",
+    "dni": "1150946391",
+    "telefono": "3168551193",
+    "sexo": "F",
+    "grado": "61",
+    "sintomas": "dolor de cabeza ",
+    "medicamento": "Paracetamol",
+    "cantidad": "2",
+    "fecha": "6/11/2025, 14:09:51"
   }
 ]
