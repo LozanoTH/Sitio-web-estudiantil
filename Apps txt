@@ -8,7 +8,7 @@
     "sintomas": "Ll",
     "medicamento": "Paracetamol",
     "cantidad": "1",
-    "fecha": "12/9/2025, 11:49:05 a. m."
+    "fecha": "12/9/2025, 11:49:05 a.Â m."
   },
   {
     "nombre": "Badillo Valencia Allisson Sharith",
@@ -19,6 +19,17 @@
     "sintomas": "Xos",
     "medicamento": "Paracetamol",
     "cantidad": "X",
-    "fecha": "12/9/2025, 11:52:06 a.�m."
+    "fecha": "12/9/2025, 11:52:06 a. m."
+  },
+  {
+    "nombre": "Valencia Ante Luisa Fernanda",
+    "dni": "1115458032",
+    "telefono": "3107100122",
+    "sexo": "F",
+    "grado": "62",
+    "sintomas": "dolo de cabeza con escalofrios",
+    "medicamento": "Ibuprofeno",
+    "cantidad": "1",
+    "fecha": "6/11/2025, 5:42:43 a.�m."
   }
 ]
