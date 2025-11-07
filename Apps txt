@@ -42,5 +42,16 @@
     "medicamento": "Paracetamol",
     "cantidad": "3",
     "fecha": "6/11/2025, 21:28:46"
+  },
+  {
+    "nombre": "Castillo Candelo Dafer Johan",
+    "dni": "1115459230",
+    "telefono": "3163467953",
+    "sexo": "M",
+    "grado": "61",
+    "sintomas": " fiebre y dolor d cabeza ",
+    "medicamento": "",
+    "cantidad": "8",
+    "fecha": "7/11/2025, 16:25:26"
   }
 ]
