@@ -64,5 +64,16 @@
     "medicamento": "Paracetamol",
     "cantidad": "6",
     "fecha": "8/11/2025, 13:55:54"
+  },
+  {
+    "nombre": "Reyes Erazo Jeremy Josias",
+    "dni": "1111808625",
+    "telefono": "3103779500",
+    "sexo": "M",
+    "grado": "61",
+    "sintomas": "jukl{ñ-ghfvgzcggrhze",
+    "medicamento": "Ibuprofeno",
+    "cantidad": "4",
+    "fecha": "8/11/2025, 13:58:38"
   }
 ]
