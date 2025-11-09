@@ -71,9 +71,20 @@
     "telefono": "3103779500",
     "sexo": "M",
     "grado": "61",
-    "sintomas": "jukl{ñ-ghfvgzcggrhze",
+    "sintomas": "jukl{Ã±-ghfvgzcggrhze",
     "medicamento": "Ibuprofeno",
     "cantidad": "4",
     "fecha": "8/11/2025, 13:58:38"
+  },
+  {
+    "nombre": "Garces Segura Yostin Andres",
+    "dni": "1150946936",
+    "telefono": "3126986000",
+    "sexo": "M",
+    "grado": "61",
+    "sintomas": "zxdgufe8yt7gh53gyyij",
+    "medicamento": "Paracetamol",
+    "cantidad": "5",
+    "fecha": "9/11/2025, 14:57:58"
   }
 ]
